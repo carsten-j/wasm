@@ -1,5 +1,10 @@
 # WebAssembly i browseren
 
+For .NET udviklere er Blazor måske det tætteste i har været på webassembly. Blazor har 2 hosting modeller: server-side og webassembly. Hvis man forsøger at finde ud af, hvordan en Blazor webassembly app bliver loaded ind i browseren, så er det ikke helt oplagt. Kigger man på index.html i wwwroot så ligner det ikke det man kan læse på MDN om
+webassembly i browseren.
+
+Så lad os starte et andet sted. Lad os tage en lille C program og kompilere det til WASM og så kalde det fra JS i en browser.
+
 Kompiler C kode til WASM fx med
 https://mbebenita.github.io/WasmExplorer/
 
@@ -24,3 +29,4 @@ Hvis man skulle gøre dette selv, så ville man installere Emscripten og bruge d
 
 Referencer:
 https://developer.mozilla.org/en-US/docs/WebAssembly
+https://emscripten.org/index.html

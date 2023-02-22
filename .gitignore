@@ -1,3 +1,5 @@
-.venv
-.spin
-target
+.venv/
+.spin/
+target/
+bin/
+obj/

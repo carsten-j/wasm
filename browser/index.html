@@ -1,11 +1,12 @@
 <script type="text/javascript">
-   const importObj = {
-      module: {}
-   };
-   fetch("test.wasm")
-      .then(bytes => bytes.arrayBuffer())
-      .then(module => WebAssembly.instantiate(module, importObj)) 
-      .then(finalcode => { 
-         console.log(finalcode); console.log(finalcode.instance.exports.square(25)); 
-      }); 
+  const importObj = {
+    module: {},
+  };
+  fetch("test.wasm")
+    .then((bytes) => bytes.arrayBuffer())
+    .then((module) => WebAssembly.instantiate(module, importObj))
+    .then((finalcode) => {
+      console.log(finalcode);
+      console.log(finalcode.instance.exports.square(25));
+    });
 </script>

@@ -17,7 +17,7 @@ JS udenfor browseren. NodeJS anno 2009-10. Var ikke første server-side JS
 
 Agenda:
 1) WebAssembly i browseren
-2) WebAssembly server-side javascript og rust
+2) WebAssembly server-side
 3) WebAssembly vs Docker
 4) WebAssembly og Cloud
 

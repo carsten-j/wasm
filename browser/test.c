@@ -1,5 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int square(int n) { 
-   return n*n; 
+int square(int n)
+{
+   return n * n;
 }
