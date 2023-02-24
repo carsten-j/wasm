@@ -1,5 +1,5 @@
 {
-    "deno.enable": true,
+    "deno.enablePaths":  ["../serverside"],
     "deno.lint": true,
     "deno.unstable": false
 }
