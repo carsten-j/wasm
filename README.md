@@ -11,7 +11,7 @@ tegning
 https://wasmlabs.dev/articles/docker-without-containers/
 
 
-specifikation
+specifikation x
 
 JS udenfor browseren. NodeJS anno 2009-10. Var ikke første server-side JS 
 
