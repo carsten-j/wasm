@@ -1,4 +1,4 @@
-Hvad er WebAssembly
+# Hvad er WebAssembly
 
 en række specifikationer for en virtuel maskine, et binary format og et tekst format
 
