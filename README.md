@@ -8,8 +8,7 @@ Webassembly er opstået som en browser teknologi og er ved at brede sig også ti
 
 De fleste moderne browsere understøttet WebAssembly. Se https://webassembly.org/roadmap/
 
-tegning
-https://wasmlabs.dev/articles/docker-without-containers/
+![browser](./images/browser.jpg)
 
 # Agenda
 

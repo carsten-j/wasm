@@ -7,7 +7,7 @@ Der er ikke noget i Wasm specifikationen som binder Wasm til en browser.
 Men hvis man kører wasm i en runtime serverside, så skal man tage stilling til, hvordan
 OS resourcer skal tilgås.
 
-indsæt tegning
+![browser](../images/server.jpg)
 
 WASI - WebAssembly System Interface
 
