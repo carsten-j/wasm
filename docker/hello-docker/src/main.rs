@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, Docker Hub!");
+    println!("Hello, Docker!");
 }

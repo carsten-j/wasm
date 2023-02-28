@@ -1,23 +1,19 @@
-# Hvad er WebAssembly
+# Hvad er WebAssembly?
 
-en række specifikationer for en virtuel maskine, et binary format og et tekst format
+WebAssembly - også kaldet wasm - er et binært format beregnet til at blive afviklet i en virtual maskine som enten kan køre i en browser eller på en server. Så wasm er ikke et produkt, men består af en række specifikationer for en virtuel maskine, et binary format og et tekst format.
 
+En af design målene med wasm er, at det skal kunne afvikle kode hurtige end javascript.
 
-WebAssembly er en ny type kode, der kan køre i moderne browsere - uden brug af plugins eller andre udvidelser.
+Webassembly er opstået som en browser teknologi og er ved at brede sig også til server-side brug.
 
-De fleste moderne browsere har siden 2017-18 understøttet WebAssembly.
+De fleste moderne browsere understøttet WebAssembly. Se https://webassembly.org/roadmap/
 
 tegning
 https://wasmlabs.dev/articles/docker-without-containers/
 
+# Agenda
 
-specifikation x
-
-JS udenfor browseren. NodeJS anno 2009-10. Var ikke første server-side JS 
-
-Agenda:
-1) WebAssembly i browseren
-2) WebAssembly server-side
-3) WebAssembly vs Docker
-4) WebAssembly og Cloud
-
+1. WebAssembly i browseren
+2. WebAssembly server-side
+3. WebAssembly vs Docker
+4. WebAssembly og Cloud
