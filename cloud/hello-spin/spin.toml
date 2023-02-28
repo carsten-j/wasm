@@ -1,15 +1,15 @@
 spin_version = "1"
-authors = ["root"]
-description = "A simple Spin HTTP component in Rust"
-name = "spin-hello-world"
+authors = ["Carsten Jørgensen <carstenj@gmail.com>"]
+description = ""
+name = "hello-spin"
 trigger = { type = "http", base = "/" }
 version = "0.1.0"
 
 [[component]]
-id = "spin-hello-world"
-source = "target/wasm32-wasi/release/hello_rust.wasm"
+id = "hello-spin"
+source = "target/wasm32-wasi/release/hello_spin.wasm"
 allowed_http_hosts = []
 [component.trigger]
-route = "/hello"
+route = "/..."
 [component.build]
 command = "cargo build --target wasm32-wasi --release"

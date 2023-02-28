@@ -1,6 +1,6 @@
 [package]
-name = "hello-rust"
-authors = ["root"]
+name = "hello-spin"
+authors = ["Carsten Jørgensen <carstenj@gmail.com>"]
 description = ""
 version = "0.1.0"
 edition = "2021"
