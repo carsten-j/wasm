@@ -14,5 +14,5 @@ De fleste moderne browsere understøttet WebAssembly. Se https://webassembly.org
 
 1. WebAssembly i browseren
 2. WebAssembly server-side
-3. WebAssembly vs Docker
+3. WebAssembly og Docker
 4. WebAssembly og Cloud
